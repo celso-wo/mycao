@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "OpenCaption",
+  "description": "This is the best extension you can ever get!",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://youtube.com/watch*",
+        "https://www.youtube.com/watch*"
+      ],
+      "js": ["lib/umbrella.min.js", "src/opencaption.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
