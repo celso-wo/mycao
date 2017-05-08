@@ -1,4 +1,4 @@
-# OpenCaption :: Chrome Extension
+# MyCao :: Chrome Extension
 
 ## Loading extension for development
 (based on: https://blog.ochronus.com/how-to-create-a-chrome-extension-18b48f9b195c)
